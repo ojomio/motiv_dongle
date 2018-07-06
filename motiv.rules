@@ -1,0 +1,2 @@
+ACTION=="add",SUBSYSTEM=="usb",ATTRS{idVendor}=="05c6",ATTRS{idProduct}=="92fe",RUN+="/usr/sbin/usb_modeswitch --config-file /etc/motiv_usbmodeswitch.conf"
+ACTION=="add",SUBSYSTEM=="usb",ATTRS{idVendor}=="05c6",ATTRS{idProduct}=="9201",RUN+="/bin/bash /bin/option_serve_gobi.sh"
